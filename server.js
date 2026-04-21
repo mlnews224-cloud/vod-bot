@@ -111,8 +111,8 @@ async function handleMedia(msg, fileInfo, mimeType) {
         { text: '📥 Download ↗',  url: downloadUrl },
       ],
       [
-        { text: '📱 VLC Mobile ↗', url: `vlc://${host}/stream/${id}` },
-        { text: '💻 VLC PC ↗',     url: `vlc://${host}/stream/${id}` },
+        { text: '📱 VLC Mobile ↗', url: `https://${host}/stream/${id}` },
+        { text: '💻 VLC PC ↗', url: `https://${host}/stream/${id}` },
       ],
       [
         { text: '📁 Get File ↗',  url: downloadUrl },
